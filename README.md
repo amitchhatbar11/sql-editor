@@ -15,7 +15,7 @@ SQL Editor is hosted at [hosted link](https://sql-editor-amit.surge.sh).
 
 ## Page Load Range: 0 – 1.5 s
 
-Steps i took to optimize the page load on Chrome v92.0.4515.107
+Steps i took to optimize the page load on Chrome.
 
 - Audit page using lighthouse that creates a baseline and gives actionable tips
 - Use Chrome Performance report to find improvements
@@ -43,4 +43,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 Code is available at [github repo](https://facebook.github.io/create-react-app/docs/deployment).
 
 Built by [Amit Chhatbar](https://amitchhatbar.com)
+
 # sql-editor

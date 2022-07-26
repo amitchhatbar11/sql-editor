@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Table from "./table";
 
-const Main = ({ selectedQuery }) => {
+const Main = React.memo(({ selectedQuery }) => {
   const [jsonData, setJsonData] = useState([]);
   const [columns, setColumns] = useState([]);
   const [query, setQuery] = useState([]);
@@ -54,6 +54,6 @@ const Main = ({ selectedQuery }) => {
       </div>
     </>
   );
-};
+});
 
 export default Main;
